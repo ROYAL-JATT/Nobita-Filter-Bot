@@ -15,7 +15,7 @@ DICE_E_MOJI = "🎲"
     f_onw_fliter
 )
 async def roll_dice(client, message):
-    """ @RollaDie """
+    """ @MOVIES_VILLA_UPDATE """
     rep_mesg_id = message.id
     if message.reply_to_message:
         rep_mesg_id = message.reply_to_message.id
